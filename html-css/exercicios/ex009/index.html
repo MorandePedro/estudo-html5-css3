@@ -4,33 +4,73 @@
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Outras formatacoes</title>
+    <title>Listas</title>
 </head>
 <body>
-    <h1>Outras formatacoes</h1>
-    <h2>Codigo-fonte / Pre-formatado</h2>
-    <p>O comando <code>document.getElementById('teste')</code> é escrito em linguagem JavaScript</p>
-    <pre>
-        <code>
-    num = int(input('Digite um numero: '))
-    if num % 2 == 0:
-        print(f'O numero {num} é par')
-    else:
-        print(f'O numero {num} é impar')
-    print('Fim do programa')
-        </code>
-    </pre>
-    <h2>Citacoes</h2>
-    <p>Como diria o pai de um amigo: <q>o computador é um burro muito rapido</q>, utilizamos a tag Q (QUOTE)</p>
-    <h2>Citacoes completas</h2>
-    <p>Segundo o autor, no seu livro ... :</p>
-        <blockquote cite="link da pagina/livro">
-            Lorem ipsum dolor sit amet, consectetur adipisicing elit. Dignissimos fuga doloribus debitis ea fugiat rem asperiores quaerat pariatur aperiam laborum minus, officia commodi, dolorem itaque aliquid nam enim tenetur perferendis.
-        </blockquote>
-        <h2>Abreviacoes</h2>
-        <p>Estou estudando <abbr title="Hyper Text Markup Language">HTML</abbr> e <abbr title="Cascade Style Sheets">CSS</abbr></p>
-        <h2>Texto invertido</h2>
-        <p><bdo dir="rtl">Estou aprendendo a criar coisas em HTML</bdo></p>
-        <p>Teste de alteração para commit</p>
+    <h1>Trabalhando com listas</h1>
+    <h2>Listas ordenadas</h2>
+    <ol type="i"> <!-- 1 A a I i-->
+        <li>Acordar</li>
+        <li>Ligar para o João</li>
+        <li>Tomar cafe</li>
+        <li>Escovar os dentes</li>
+        <li>Ir para a facul</li>
+        <li>Almocar</li>
+        <li>Trabalhar</li>
+        <li>Jantar</li>
+        <li>Dormir</li>
+    </ol>
+    <h2>Listas não ordenadas</h2>
+    <ul type="square"> <!-- disc circle square-->
+        <li>Pao</li>
+        <li>tomate</li>
+        <li>feijao</li>
+        <li>leite</li>
+        <li>sabonete</li>
+    </ul>
+    <h2>Minhas linguagens favoritas</h2>
+    <ol>
+        <li>Antigas</li>
+        <ol type="a">
+            <li>Clipper</li>
+            <li>Fortran</li>
+            <li>Delphi</li>
+            <li>Visual Basic</li>
+        </ol>
+        <li>Novas</li>
+        <ol type="a" start="5">
+            <li>PHP</li>
+            <li>Python</li>
+            <li>JS</li>
+            <li>Java</li>
+        </ol>
+    </ol>
+    <h2>Meus jogos favoritos</h2>
+    <ol>
+        <li>Playstation</li>
+        <ul>
+            <li>GTA SAN</li>
+            <li>MK Shaolin Monks</li>
+        </ul>
+        <li>Xbox</li>
+        <ul>
+            <li>Gears of War</li>
+            <li>Guitar Hero</li>
+        </ul>
+        <li>Nintendo DSI</li>
+        <ul>
+            <li>Mario Bros</li>
+            <li>Super Mario</li>
+        </ul>
+    </ol>
+    <h2>Lista de Definicoes</h2>
+    <dl>
+        <dt>HTML</dt>
+        <dd>Linguagem de Marcacao</dd>
+        <dt>CSS</dt>
+        <dd>Linguagem de design</dd>
+        <dt>JavaScript</dt>
+        <dd>Linguagem de interatividade</dd>
+    </dl>
 </body>
 </html>
